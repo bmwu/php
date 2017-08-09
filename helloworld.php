@@ -75,7 +75,43 @@
     print $x+$y;
     ?>
 
+    <?php
+    // data types
+    $x="hello world\n";
+    $y='hello world   ';
+    echo $x;
+    echo $y;
 
+    $int1=5900;
+    var_dump($int1);
+
+    $float1=10.009;
+    var_dump($float1);
+
+    $b1=true;
+    $b2=false;
+
+    // array
+    $cars = array('xxx' => "volvo", "bmw");
+    var_dump($cars);
+
+
+    // object
+    class Car {
+        function Car() {
+            $this->model = "VM\n";
+        }
+    }
+
+    $herbie = new Car();
+    echo $herbie->model;
+
+    // null
+    $null1 = "Hello world";
+    $null1 = null;
+    var_dump($null1);
+    
+    ?>
 
 </body>
 </html>
