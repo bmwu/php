@@ -67,6 +67,14 @@
     echo "xxx: $x1 & $y";
     ?>
 
+    <?php
+    // print statement
+    print "hello world\n";
+    $x=5;
+    $y=10;
+    print $x+$y;
+    ?>
+
 
 
 </body>
